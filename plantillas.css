@@ -1,0 +1,183 @@
+.fondoImagen {
+    background-image: url("breaking bad/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.poster img {
+    height: 300px;
+    width: 700px;
+    border: 10px outset brown;
+    border-radius: 22px;
+}
+
+.logo img {
+    height: 200px;
+    width: 200px;
+}
+
+p {
+    font-family: Breaking Bad;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+b {
+    font-family: Helvetica;
+    color:black;
+    font-size: 14px;
+}
+
+.p1 {
+    font-family: Helvetica;
+    color:black;
+    font-size: 14px; 
+}
+
+.fondoColor {
+    background-color: #0c3e11;
+}
+
+.cabezado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 125px;
+}
+
+.titulo {
+    display: block;
+    margin-left: 10px;
+    align-items: flex-end;
+}
+
+.inicial, .palabra {
+    display: flex;
+    flex-direction: column;
+}
+
+.linea {
+    display: block;
+    margin-left: 170px;
+}
+
+.inicial {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 120px;
+    margin: 0 10px;
+    color: black;
+    background-color: yellow;
+}
+
+.palabra {
+    display: inline;
+    font-size: 120px;
+    font-weight: bold;
+    color: white;
+}
+
+.frase {
+    display: inline-block;
+    font-size: 25px;
+    align-items: center;
+    color: red;
+}
+
+.tabla1 {
+    background-color: black;
+    border-collapse: separate;
+    border-spacing: 5px 5px;
+}
+
+.tabla2 {
+    background-color: black;
+    border-collapse: separate;
+    border-spacing: 5px 5px;
+}
+
+.tabla1 td {
+    font-family: Helvetica;
+    text-align: center;
+    overflow: hidden;
+    height: 68px;
+    width: 68px;
+}
+
+.tabla2 td {
+    font-family: Helvetica;
+    text-align: center;
+    overflow: hidden;
+    height: 34px;
+    width: 34px;
+}
+
+.tabla2 img {
+    width: 62px;
+    height: 62px;
+}
+
+.fuente1 {
+    font-size: 40px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.fuente2 {
+    font-size: 10px;
+    display: block;
+    line-height: 1;
+}
+
+.degradado img{
+    width: auto;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.color1 {
+    background-color: #B6D722;
+}
+
+.color2 {
+    background-color: #AB8FCC;
+}
+
+.color3 {
+    background-color: #89A419;
+}
+
+.color4 {
+    background-color: #C5E14D;
+}
+
+.color5 {
+    background-color: #BCC49D;
+}
+
+.color6 {
+    background-color: #C2C625;
+}
+
+.color7 {
+    background-color: #EFF6C6;
+}
+
+.color8 {
+    background-color: #828D50;
+}
+
+.color9 {
+    background-color: #637126;
+}
+
+.color10 {
+    background-color: #CFE27C;
+}
+
+.tabla2 {
+    max-width: 50px;
+    max-height: 50px;
+}

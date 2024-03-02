@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="image/png" href="breaking bad/icon.png">
+  <link rel="stylesheet" href="plantillas.css">
+  <title>Breaking Bad - Que comience el juego!</title>
+<style>
+</style>
+</head>
+<body class="fondoImagen">
+  
+    <b>Breaking Bad  -  Que comience el juego!</b><br>
+  
+    <form>
+      <br><p1>Datos Personales:</p1><br>
+      <p1><label for="nombre"> Nombre: <input type="text" id="nombre" required></label></p1><br>
+      <p1><label for="apellidos"> Apellidos: <input type="text" id="apellidos" required></label></p1><br>
+      <p1><label for="DNI"> DNI: <input type="text" id="DNI"></label></p1><br>
+      <p1><label for="correo electronico"> Correo Electrónico: <input type="text" id="correo electronico" requiered></label></p1><br>
+      <p1><label for="fecha de nacimiento"> Fecha de nacimiento: <input type="date" id="fecha de nacimiento"></label></p1><br>
+      
+      <br><p1>Dirección Postal:</p1><br>
+      <p1><label for="calle"> Calle: <input type="text" id="calle"></label></p1><br>
+      <p1><label for="numero"> Número: <input type="text" id="numero"></label></p1><br>
+      <p1><label for="piso"> Piso: <input type="text" id="piso"></label></p1><br>
+      <p1><label for="codigo postal"> Código Postal: <input type="text" id="codigo postal"></label></p1><br>
+      <p1><label for="ciudad"> Ciudad: <input type="text" id="ciudad"></label></p1><br>
+
+      <br><p1>Sexo:</p1><br>
+      <input type="radio" id="Masculino" name="sexo" value="Masculino">
+        <label for="Masculino">Masculino</label><br>
+      <input type="radio" id="Femenino" name="sexo" value="Femenino">
+        <label for="Femenino">Femenino</label><br>
+      <input type="radio" id="Otro" name="sexo" value="Otro">
+        <label for="Otro">Otro</label><br>
+
+        <br><p1><label> Selecciona un personaje: 
+        <select id="personajes">
+          <option value="personajes"> Seleccione opcion </option>
+          <option value="jessie pinkman"> Jessie Pinkman </option>
+          <option value="walter white"> Whalter White </option>
+          <option value="saul goodman"> Saul Goodman </option>
+          <option value="gustavo fring"> Gustavo Fring </option>
+          <option value="pollos hermanos"> Pollos Hermanos </option>
+          <option value="otros personajes"> Otros Personajes </option>
+        </select>
+      </label></p1>
+      <br><br>
+
+      <br><p1><label for="observacion"> Observación: <textarea id="observacion"></textarea></label></p1><br>
+
+      <br><label for="archivo">Adjuntar Archivos</label>
+      <input type="file" id="archivo" name="archivo" multiple>
+      <br><br>
+      <button type="submit"> Enviar </button>
+      <button type="reset"> Reset </button>
+
+    </form>      
+  
+</body>
+</html>
